@@ -1,0 +1,6 @@
+framework module TaurusXAds {
+  umbrella header "TaurusXAds.h"
+
+  export *
+  module * { export * }
+}

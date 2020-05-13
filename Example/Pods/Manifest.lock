@@ -1,16 +1,35 @@
 PODS:
-  - TestSmallSDK (0.1.0)
+  - Bytedance-UnionAD (2.9.0.7)
+  - NathAds (1.0.9)
+  - TaurusXAdMediation_TikTok (2.9.0.7.0):
+    - Bytedance-UnionAD (= 2.9.0.7)
+    - TaurusXAds
+  - TaurusXAds (1.8.3):
+    - NathAds
+  - TestSmallSDK (0.1.0):
+    - TaurusXAdMediation_TikTok
 
 DEPENDENCIES:
   - TestSmallSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Bytedance-UnionAD
+    - NathAds
+    - TaurusXAdMediation_TikTok
+    - TaurusXAds
 
 EXTERNAL SOURCES:
   TestSmallSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TestSmallSDK: 2238626e80d0153ab648c1759ef3e943e013f291
+  Bytedance-UnionAD: e1f318b415a713c3be23ee357db7521fe20d76d0
+  NathAds: a208e7d990974cb693ab92792ca80e68dcc1f8ab
+  TaurusXAdMediation_TikTok: b9c11073e1416f17d7d241211117d0048f3a6675
+  TaurusXAds: a8a98c4fa2d6b07d0ff3003ef853f9e441169566
+  TestSmallSDK: 767f0fc358ada4570b8fe8552778ccf67a3f6ffc
 
-PODFILE CHECKSUM: 87a6d3df0e44403579ce37ad005e426a35c67453
+PODFILE CHECKSUM: a99d40454064216ebe009af95ccb42bdae70edc3
 
 COCOAPODS: 1.9.1

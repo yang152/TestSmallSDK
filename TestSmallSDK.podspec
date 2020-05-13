@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TestSmallSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TestSmallSDK.'
+  s.summary          = 'TestSmallSDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+一款集成了多个小游戏的SDK，方便用户即时happy
                        DESC
 
   s.homepage         = 'https://github.com/yang152/TestSmallSDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yang152' => '1062565969@qq.com' }
   s.source           = { :git => 'https://github.com/yang152/TestSmallSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'TestSmallSDK/Classes/**/*'
+  s.ios.deployment_target = '9.0'
   
-  # s.resource_bundles = {
-  #   'TestSmallSDK' => ['TestSmallSDK/Assets/*.png']
-  # }
+  s.dependency 'TaurusXAdMediation_TikTok'
+  s.vendored_frameworks = 'TestSmallSDK/RSGameVlionAd.framework'
+  s.resource = 'TestSmallSDK/RSGameVlionAd.bundle'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
 end

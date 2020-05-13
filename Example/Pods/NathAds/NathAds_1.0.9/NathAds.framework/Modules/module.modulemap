@@ -1,0 +1,6 @@
+framework module NathAds {
+  umbrella header "NathAds.h"
+
+  export *
+  module * { export * }
+}

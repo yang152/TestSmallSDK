@@ -7,8 +7,11 @@
 //
 
 #import "RSViewController.h"
+#import <BUAdSDK/BUAdSDK.h>
+#import <RSGameVlionAd/RSGameVlionAd.h>
 
 @interface RSViewController ()
+@property (nonatomic, strong) VlionAdView *adView;
 
 @end
 
@@ -18,6 +21,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    [BUAdSDKManager setAppID:@"5050702"];
+    self.adView = [[VlionAdView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) mediaId:@"84" rootController:self];
+    [self.view addSubview:self.adView];
+    
 }
 
 - (void)didReceiveMemoryWarning

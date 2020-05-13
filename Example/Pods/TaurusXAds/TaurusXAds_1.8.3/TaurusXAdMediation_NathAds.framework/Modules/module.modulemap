@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_NathAds {
+  umbrella header "TaurusXAdMediation_NathAds.h"
+
+  export *
+  module * { export * }
+}
