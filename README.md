@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TestSmallSDK
 
 [![CI Status](https://img.shields.io/travis/yang152/TestSmallSDK.svg?style=flat)](https://travis-ci.org/yang152/TestSmallSDK)
@@ -27,3 +28,6 @@ yang152, 1062565969@qq.com
 ## License
 
 TestSmallSDK is available under the MIT license. See the LICENSE file for more info.
+=======
+# TestSmallSDK
+>>>>>>> 9c6d1e653bd6b507925a63e7519a86005482445b

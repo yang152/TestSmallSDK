@@ -1,0 +1,6 @@
+framework module TestSmallSDK {
+  umbrella header "TestSmallSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
