@@ -1,6 +1,6 @@
 {
   "name": "TestSmallSDK",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "TestSmallSDK.",
   "description": "一款集成了多个小游戏的SDK，方便用户即时happy",
   "homepage": "https://github.com/yang152/TestSmallSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yang152/TestSmallSDK.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -24,5 +24,8 @@
     ]
   },
   "vendored_frameworks": "TestSmallSDK/RSGameVlionAd.framework",
-  "resources": "TestSmallSDK/RSGameVlionAd.bundle"
+  "resources": "TestSmallSDK/RSGameVlionAd.bundle",
+  "xcconfig": {
+    "VALID_ARCHS": "armv7 armv7s x86_64 arm64"
+  }
 }

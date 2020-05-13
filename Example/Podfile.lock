@@ -6,7 +6,7 @@ PODS:
     - TaurusXAds
   - TaurusXAds (1.8.3):
     - NathAds
-  - TestSmallSDK (0.1.0):
+  - TestSmallSDK (0.3.0):
     - TaurusXAdMediation_TikTok
 
 DEPENDENCIES:
@@ -28,7 +28,7 @@ SPEC CHECKSUMS:
   NathAds: a208e7d990974cb693ab92792ca80e68dcc1f8ab
   TaurusXAdMediation_TikTok: b9c11073e1416f17d7d241211117d0048f3a6675
   TaurusXAds: a8a98c4fa2d6b07d0ff3003ef853f9e441169566
-  TestSmallSDK: 767f0fc358ada4570b8fe8552778ccf67a3f6ffc
+  TestSmallSDK: 77ab285e0325327706c3eb5776d62ad7b8972e53
 
 PODFILE CHECKSUM: a99d40454064216ebe009af95ccb42bdae70edc3
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestSmallSDK'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'TestSmallSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -26,11 +26,16 @@ Pod::Spec.new do |s|
   s.author           = { 'yang152' => '1062565969@qq.com' }
   s.source           = { :git => 'https://github.com/yang152/TestSmallSDK.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.platform     = :ios, "9.0"
   
   s.dependency 'TaurusXAdMediation_TikTok'
   s.vendored_frameworks = 'TestSmallSDK/RSGameVlionAd.framework'
   s.resource = 'TestSmallSDK/RSGameVlionAd.bundle'
+  
+  valid_archs = ['armv7', 'armv7s', 'x86_64', 'arm64']
+  s.xcconfig = {
+    'VALID_ARCHS' =>  valid_archs.join(' '),
+  }
 
 
 end
